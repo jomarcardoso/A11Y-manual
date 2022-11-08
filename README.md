@@ -11,6 +11,10 @@ A base das regras desse manual é o [WCAG](https://www.w3c.br/traducoes/wcag/wca
 1. tag `button` ou `role="button"`
 2. `aria-pressed="true|false"`
 
+###  <a name="leitura-como-botão-de-alternância"></a> Não duplicar leitura de rótulos em campos de formulário
+
+1. colocar `aria-hidden` na tag label atrelada ao `input`.
+
 ## Componentes
 
 - [Lista](#lista)
@@ -21,13 +25,15 @@ Regras da lista para leitores de tela:
 
 - Para leitores com atalho de navegação de item de lista (tecla I no NVDA), usando o atalho deve ler o item inteiro e usando a navegação padrão deve separar por parábrafo, assim como qualquer conteúdo;
 - Para leitores que não possuem atalho de navegação de item de lista, deve ler todo conteúdo.
-- Leitor informar que entrou numa lista.
+- Leitor informar que entrou numa lista;
+- Não duplicar leitura de rótulos em campos de formulário.
 
 ## <a name="switch"></a>Switch
 
 Regras da lista para leitores de tela:
 
 - [Ler como botão de alternância](#leitura-como-botão-de-alternância)
+- Não duplicar a leitura de rótulos](ASDF)
 
 Exemplo usando bootstrap:
 
