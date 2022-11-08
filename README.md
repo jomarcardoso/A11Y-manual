@@ -11,7 +11,7 @@ A base das regras desse manual é o [WCAG](https://www.w3c.br/traducoes/wcag/wca
 1. tag `button` ou `role="button"`
 2. `aria-pressed="true|false"`
 
-###  <a name="leitura-como-botão-de-alternância"></a> Não duplicar leitura de rótulos em campos de formulário
+###  <a name="não-duplicar-leitura-de-rótulos-em-campos-de-formulário"></a> Não duplicar leitura de rótulos em campos de formulário
 
 1. colocar `aria-hidden` na tag label atrelada ao `input`.
 
@@ -33,7 +33,7 @@ Regras da lista para leitores de tela:
 Regras da lista para leitores de tela:
 
 - [Ler como botão de alternância](#leitura-como-botão-de-alternância)
-- Não duplicar a leitura de rótulos](ASDF)
+- Não duplicar a leitura de rótulos](#não-duplicar-leitura-de-rótulos-em-campos-de-formulário)
 
 Exemplo usando bootstrap:
 
