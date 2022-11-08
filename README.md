@@ -27,4 +27,4 @@ Regras da lista para leitores de tela:
 
 Regras da lista para leitores de tela:
 
-- [Ler como botão de alternância](leitura-como-botão-de-alternância)
+- [Ler como botão de alternância](#leitura-como-botão-de-alternância)
