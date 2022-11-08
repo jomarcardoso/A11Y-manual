@@ -28,3 +28,12 @@ Regras da lista para leitores de tela:
 Regras da lista para leitores de tela:
 
 - [Ler como botão de alternância](#leitura-como-botão-de-alternância)
+
+Exemplo usando bootstrap:
+
+```html
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="button" id="flexSwitchCheckChecked" aria-pressed="{CHECKED}">
+  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+</div>
+```
