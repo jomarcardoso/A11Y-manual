@@ -40,6 +40,14 @@ Exemplo usando bootstrap:
 ```html
 <div class="form-check form-switch">
   <input class="form-check-input" type="checkbox" role="button" id="flexSwitchCheckChecked" aria-pressed="{CHECKED}">
-  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+  <label class="form-check-label" for="flexSwitchCheckChecked" aria-hidden>Checked switch checkbox input</label>
 </div>
+```
+
+```js
+const input = document.querySelector('#flexSwitchCheckChecked');
+
+input.addEventListener('change', () => {
+  input.setAttribute('aria-pressed', input.checked ? 'true' : 'false')  
+})
 ```
