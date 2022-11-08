@@ -6,7 +6,10 @@ A base das regras desse manual é o [WCAG](https://www.w3c.br/traducoes/wcag/wca
 
 ## Técnicas de desenvolvimento
 
-###  <a name="asdf"></a> Leitura como botão de alternância
+###  <a name="leitura-como-botão-de-alternância"></a> Leitura como botão de alternância
+
+1. tag `button` ou `role="button"`
+2. `aria-pressed="true|false"`
 
 ## Componentes
 
@@ -24,4 +27,4 @@ Regras da lista para leitores de tela:
 
 Regras da lista para leitores de tela:
 
-- Ler como botão de alternância
+- [Ler como botão de alternância](leitura-como-botão-de-alternância)
