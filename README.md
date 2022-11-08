@@ -33,7 +33,7 @@ Regras da lista para leitores de tela:
 Regras da lista para leitores de tela:
 
 - [Ler como botão de alternância](#leitura-como-botão-de-alternância)
-- Não duplicar a leitura de rótulos](#não-duplicar-leitura-de-rótulos-em-campos-de-formulário)
+- [Não duplicar a leitura de rótulos](#não-duplicar-leitura-de-rótulos-em-campos-de-formulário)
 
 Exemplo usando bootstrap:
 
