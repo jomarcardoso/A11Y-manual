@@ -6,6 +6,6 @@ A base das regras desse manual é o [WCAG](https://www.w3c.br/traducoes/wcag/wca
 
 ## Componentes
 
-- [Lista](#component-list)
+- [Lista](#lista)
 
-## <a name="component-list"></a>Lista
+## <a name="lista"></a>Lista
