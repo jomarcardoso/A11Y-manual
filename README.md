@@ -28,6 +28,12 @@ Regras da lista para leitores de tela:
 - Leitor informar que entrou numa lista;
 - Não duplicar leitura de rótulos em campos de formulário.
 
+## Modal
+
+Regras gerais de foco:
+
+- elementos interagíveis que aparecem em tela devem receber foco no seu primeiro elemento
+
 ## <a name="switch"></a>Switch
 
 Regras da lista para leitores de tela:
